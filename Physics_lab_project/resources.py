@@ -4,8 +4,6 @@ import k3d
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
-#from resources import cubic, fcc, distance
-
 
 def cubic(sx, sy, sz, nx, ny, nz):
     X, Y, Z = np.arange(sx, nx), np.arange(sy, ny), np.arange(sz, nz)
